@@ -1,0 +1,24 @@
+{
+  "name": "ai-powered-fitness-tracking-app-91930182",
+  "version": "1.0.0",
+  "description": "A comprehensive fitness tracking app that uses AI to provide personalized workout recommendations and progress tracking\n\n**AI Learning Insights Applied:**\n• Invest in user experience: Ensure the app is easy to use and provides a seamless experience for tracking workouts and viewing progress.\n• Personalize recommendations: Use AI to provide personalized workout recommendations based on each user's fitness level, goals, and preferences.\n• Prioritize data security: Make sure to follow best practices for data security and clearly communicate to users how their data will be used and protected.\n\n**Warning Signals to Monitor:**\n⚠️ Low user engagement: If users are not regularly logging their workouts or interacting with the app, this could indicate that the app is not meeting their needs or is too complicated to use.\n⚠️ Poor user reviews: Negative feedback or low ratings on the app store can indicate dissatisfaction with the app's features or performance.\n⚠️ High churn rate: If a significant number of users stop using the app after a short period, this could indicate that the app is not providing enough value to retain users.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@stripe/stripe-js": "^2.0.0",
+    "stripe": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
